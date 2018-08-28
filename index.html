@@ -1,103 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Minhas séries</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>Minhas Séries</title>
+    <link rel="stylesheet" href="assets/css/geral.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/conteudo.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
 </head>
-
 <body>
+    
+    <!-- cabeçalho do site -->
     <header>
-        <nav class="navbar">
-            <ul class="navbar-list">
-                <li>
-                    <a href="#">Início</a>
-                </li>
-                <li>
-                    <a href="#">Séries renovadas</a>
-                </li>
-                <li>
-                    <a href="#">Séries em destaque</a>
-                </li>
-                <li>
-                    <a href="#">Novas séries</a>
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-            </ul>
+        <nav class="menu">
+            <div class="box">
+                <ul>
+                    <li><a href="#">Início</li></a>
+                    <li><a href="#">Séries renovadas</li></a>
+                    <li><a href="#">Séries em destaque</li></a>
+                    <li><a href="#">Novas séries</li></a>
+                    <li><a href="/contato.html">Contato</li></a>
+                </ul>
+            </div>
         </nav>
-        <div class="titulo">
-            Minhas
-            <span class="titulo-destaque">Séries</span>
+        <div class="nome-site">
+            <div class="box">
+                <a href="index.html">Minhas <span class="nome-site-mod">Séries</span></a>
+            </div>
         </div>
     </header>
+
     <main>
-        <!-- Resultados da busca -->
-        <div class="resultados-series">
-            <h1>Resultados encontrados:</h1>
-        </div>
-        <section id="section-series">
-            <div class="box-serie">
-                <h3 class="titulo-serie">Game of Thrones</h3>
-                <p class="genero-serie">Fantasia</p>
-                <img class="capa-serie" src="./assets/images/capas/game-of-thrones.jpg" width="223" height="297" alt="Trono de ferro da série
-                        Game of
-                        Thrones. A imagem descreve um cenário de guerra e mortes
-                        pelo reinado.">
-                <button class="btn-leia-mais">Leia mais</button>
-            </div>
-
-            <div class="box-serie">
-                <h3 class="titulo-serie">Breaking Bad</h3>
-                <p class="genero-serie">Ficção científica</p>
-                <img class="capa-serie" src="./assets/images/capas/breaking-bad.jpg" width="223" height="297" alt="Cena do protagonista da série Breaking
-                        Bad.">
-                <button class="btn-leia-mais">Leia mais</button>
-            </div>
-
-            <div class="box-serie">
-                <h3 class="titulo-serie">The Walking Dead</h3>
-                <p class="genero-serie">Suspense</p>
-                <img class="capa-serie" src="./assets/images/capas/the-walking-dead.jpg" width="223" height="297" alt="Trono de ferro da série
-                        Game of
-                        Thrones. A imagem descreve um cenário de guerra e mortes
-                        pelo reinado.">
-                <button class="btn-leia-mais">Leia mais</button>
-            </div>
-
-            <div class="box-serie">
-                <h3 class="titulo-serie">Stranger Things</h3>
-                <p class="genero-serie">Suspense</p>
-                <img class="capa-serie" src="./assets/images/capas/stranger-things.jpg" width="223" height="297" alt="Trono de ferro da série
-                        Game of
-                        Thrones. A imagem descreve um cenário de guerra e mortes
-                        pelo reinado.">
-                <button class="btn-leia-mais">Leia mais</button>
-            </div>
-
-            <div class="box-serie">
-                <h3 class="titulo-serie">Stranger Things</h3>
-                <p class="genero-serie">Suspense</p>
-                <img class="capa-serie" src="./assets/images/capas/stranger-things.jpg" width="223" height="297" alt="Trono de ferro da série
-                        Game of
-                        Thrones. A imagem descreve um cenário de guerra e mortes
-                        pelo reinado.">
-                <button class="btn-leia-mais">Leia mais</button>
-            </div>
-        </section>
-    </main>
-    <footer>
         <div class="box">
-            <p class="texto-rodape">Minhas séries</p>
-            <img src="#facebook" alt="Imagem do Facebook" class="imagem-rodape">
-            <img src="#twitter" alt="Imagem do Twitter" class="imagem-rodape">
-            <img src="#instagram" alt="Imagem do Instagram" class="imagem-rodape">
+            <section class="lista-series">
+                <div class="serie">
+                    <h2 class="serie-titulo"><a href="">Game of Thrones</a></h2>
+                    <p class="serie-genero"><a href="">Drama</a></p>
+                    <a href=""><img src="assets/images/capas/game-of-thrones.jpg" class="serie-capa" width="223" height="297"></a>
+                    <button class="serie-leiamais">Leia mais</button>
+                </div>
+                <div class="serie">
+                    <h2 class="serie-titulo"><a href="">Game of Thrones</a></h2>
+                    <p class="serie-genero"><a href="">Drama</a></p>
+                    <a href=""><img src="assets/images/capas/game-of-thrones.jpg" class="serie-capa" width="223" height="297"></a>
+                    <button class="serie-leiamais">Leia mais</button>
+                </div>
+                <div class="serie">
+                    <h2 class="serie-titulo"><a href="">Game of Thrones</a></h2>
+                    <p class="serie-genero"><a href="">Drama</a></p>
+                    <a href=""><img src="assets/images/capas/game-of-thrones.jpg" class="serie-capa" width="223" height="297"></a>
+                    <button class="serie-leiamais">Leia mais</button>
+                </div>
+                <div class="serie">
+                    <h2 class="serie-titulo"><a href="">Game of Thrones</a></h2>
+                    <p class="serie-genero"><a href="">Drama</a></p>
+                    <a href=""><img src="assets/images/capas/game-of-thrones.jpg" class="serie-capa" width="223" height="297"></a>
+                    <button class="serie-leiamais">Leia mais</button>
+                </div>
+                <div class="serie">
+                    <h2 class="serie-titulo"><a href="">Game of Thrones</a></h2>
+                    <p class="serie-genero"><a href="">Drama</a></p>
+                    <a href=""><img src="assets/images/capas/game-of-thrones.jpg" class="serie-capa" width="223" height="297"></a>
+                    <button class="serie-leiamais">Leia mais</button>
+                </div>
+                <div class="serie">
+                    <h2 class="serie-titulo"><a href="">Game of Thrones</a></h2>
+                    <p class="serie-genero"><a href="">Drama</a></p>
+                    <a href=""><img src="assets/images/capas/game-of-thrones.jpg" class="serie-capa" width="223" height="297"></a>
+                    <button class="serie-leiamais">Leia mais</button>
+                </div>   
+                <div class="serie"></div>                          
+                <div class="serie"></div>                          
+            </section>
+        </div>
+    </main>
+
+    <!-- rodapé do site -->
+    <footer class="rodape">
+        <div class="box rodape-conteudo">
+            <span>Siga o Minhas SÉRIES no</span>
+            <span>
+                <img src="assets/images/facebook.svg" width="33" height="29">
+                <img src="assets/images/twitter.svg" width="33" height="29">
+                <img src="assets/images/youtube.svg" width="33" height="29">
+            </span>
         </div>
     </footer>
 </body>
-
 </html>

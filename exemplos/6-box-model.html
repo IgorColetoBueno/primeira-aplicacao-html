@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            background-color: #f1c40f;
+            padding: 10px;
+            margin: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .box-titulo, .box-texto{
+            background-color: rgb(48, 197, 92);
+            color: white;
+            width: 200px;
+        }
+        .box-titulo{
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            border: 1px solid rgb(48, 197, 92);
+        }
+        .box-texto{
+            padding: 10px;
+            margin: 0;
+            border: 1px solid rgb(48, 197, 92);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="box">CSS box-model</h1>
+    <div>
+        <div class="box-titulo">Box-model</div>
+        <div class="box-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius cumque explicabo deleniti, veniam delectus odio ex adipisci laudantium impedit numquam deserunt quo distinctio provident. Consequatur nihil quidem eligendi neque tempora?</div>
+    </div>
+</body>
+</html>

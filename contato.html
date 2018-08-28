@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/geral.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/conteudo.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="box">
+                <ul>
+                    <li>
+                        <a href="#">Início</li>
+                    </a>
+                    <li>
+                        <a href="#">Séries renovadas</li>
+                    </a>
+                    <li>
+                        <a href="#">Séries em destaque</li>
+                    </a>
+                    <li>
+                        <a href="#">Novas séries</li>
+                    </a>
+                    <li>
+                        <a href="/contato.html">Contato</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <div class="nome-site">
+            <div class="box">
+                <a href="index.html">Minhas
+                    <span class="nome-site-mod">Séries</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="box">
+            <div>
+                <h1>Contato</h1>
+            </div>
+            <form action="POST">
+                <div class="row">
+                    <div class="col-large">
+                        <fieldset>
+                            <legend>Nome completo</legend>
+                            <input type="text" required min="3" max="100" name="nome-completo" />
+                        </fieldset>
+                    </div>
+                    <div class="col-large">
+                        <fieldset>
+                            <legend>Idade</legend>
+                            <input type="number" required min="12" max="140" name="idade" />
+                        </fieldset>
+                    </div>
+                    <div class="col-large">
+                        <fieldset>
+                            <legend>E-mail</legend>
+                            <input type="email" min="7" required max="140" name="e-mail" />
+                        </fieldset>
+                    </div>
+                    <div class="col-large">
+                        <fieldset>
+                            <legend>Desejo receber notificações de novos filmes por e-mail</legend>
+                            <input id="nao-receber-notificacoes" type="radio" name="permitir-notificacoes" value="Nao" placeholder="Não desejo" /> Não desejo receber
+                            <br>
+                            <input id="receber-notificacoes" checked type="radio" name="permitir-notificacoes" value="Nao" placeholder="Não desejo" /> Desejo receber
+                            <br>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row-initial">
+                    <button type="button">Voltar</button>
+                    <button type="reset">Limpar campos</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas</title>
+    <style>
+        .titulo{
+            text-align: center;
+        }
+        .tabela{
+            border-collapse: collapse;
+            margin: 0 auto;
+            min-width: 80%;
+        }
+        .tabela, .tabela th, .tabela td {
+            border: 1px solid black;
+        }
+        .tabela th, .tabela td{
+            padding: 10px;
+            text-align: center;
+        }
+        .tabela th{
+            background-color: #6994d3;
+        }
+        .tabela tr:nth-child(even){
+            background-color: rgba(216, 216, 203, 0.5);
+        }
+        .tabela tr:hover{
+            background-color: rgba(255, 255, 0, 0.5);
+        }        
+        .alinhado-esquerda{
+            text-align: left !important;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Lista de produtos</h1>
+    <table class="tabela">
+        <tr>
+            <th>Item</th>
+            <th>Descrição</th>
+            <th>Quantidade</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="alinhado-esquerda">Sabão em pó</td>
+            <td>20</td>
+            <td>R$ 5,00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="alinhado-esquerda">Sabonete</td>
+            <td>13</td>
+            <td>R$ 1,90</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="alinhado-esquerda">Papel higiênico</td>
+            <td>17</td>
+            <td>R$ 10,00</td>
+        </tr>                
+    </table>
+</body>
+</html>

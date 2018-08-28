@@ -1,0 +1,41 @@
+.menu {
+    background-color: #C0392B;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    display: inline-block;
+}
+.menu a:nth-child(1){
+    padding-left: 0;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.nome-site{
+    background-color: #C0392B;
+    background: linear-gradient(#C0392B, #E74C3C);
+    padding-bottom: 20px;
+    padding-top: 50px;    
+}
+.nome-site a{
+    text-decoration: none;
+    color: white;
+    font-size: 38px;
+    text-shadow: 1px 1px black;
+}
+.nome-site-mod{
+    color: #C0392B;
+    background-color: white;
+    padding: 2px;
+    padding-top: 6px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

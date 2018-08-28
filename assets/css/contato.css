@@ -1,0 +1,91 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: initial;
+    align-content: space-around;
+    margin: 20px 0;
+}
+
+.row-initial{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: space-around;
+    margin: 20px 0;
+}
+
+.col{
+    width: 50%;
+    padding: 10px;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.col-large{
+    width: 100%;
+    padding: 10px;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.col-small{
+    width: 30%;
+    padding: 10px;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+button[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: green;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    border: .5px solid green;
+    border-radius: 4px;
+    width: 223px;
+}
+
+button[type="reset"]{
+    margin: 0 auto;
+    color: white;
+    background-color: #C0392B;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    border: .5px solid #C0392B;
+    border-radius: 4px;
+    width: 223px;
+}
+
+
+button[type="button"]{
+    margin: 0 auto;
+    color: black;
+    background-color:silver;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+    border: .5px solid gray;
+    border-radius: 4px;
+    width: 223px;
+}
+
+fieldset{
+    border-color: red;
+    border-width: 0.8px;
+    border-radius: 5px;
+}
+
+div.col-large > fieldset > input[type="text"],div.col-large > fieldset > input[type="email"],div.col-large > fieldset > input[type="number"]{
+    width: 100%;
+    border-radius: 1px;
+    border-width: 0.8px;
+    border-color: rgba(128, 128, 128, 0.945);
+    border-style: solid; 
+}
